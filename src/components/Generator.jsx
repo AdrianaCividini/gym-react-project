@@ -75,7 +75,7 @@ export default function Generator(props) {
               }}
               className={
                 "bg-slate-950 border duration-200 px-4 hover:border-blue-600 py-3 rounded-lg px-4 " +
-                (type === poison ? " boder-blue-600" : " boder-blue-400")
+                (type === poison ? " boder-pink-600" : " boder-blue-400")
               }
               key={typeIndex}
             >
@@ -92,7 +92,7 @@ export default function Generator(props) {
       />
       <div
         className="bg-slate-950  border border-solid 
-      border-blue-400 rounded-lg flex flex-col"
+      border-pink-400 rounded-lg flex flex-col"
       >
         <button
           onClick={toggleModal}
@@ -116,8 +116,8 @@ export default function Generator(props) {
                   }}
                   key={muscleGrupoIndex}
                   className={
-                    "hover:text-blue-400 duration-200" +
-                    (muscles.includes(muscleGroup) ? " text-blue-400" : " ")
+                    "hover:text-pink-400 duration-200" +
+                    (muscles.includes(muscleGroup) ? " text-pink-400" : " ")
                   }
                 >
                   <p className="uppercase">
@@ -143,7 +143,7 @@ export default function Generator(props) {
                 setGoal(scheme);
               }}
               className={
-                "bg-slate-950 border duration-200 hover:border-blue-600 py-3 rounded-lg px-4 " +
+                "bg-slate-950 border duration-200 hover:border-pink-600 py-3 rounded-lg px-4 " +
                 (scheme === goal ? " boder-blue-600" : " boder-blue-400")
               }
               key={schemeIndex}

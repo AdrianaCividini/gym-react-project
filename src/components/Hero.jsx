@@ -10,14 +10,14 @@ export default function Hero() {
       <div className="flex flex-col gap-4">
         <p>IT'S TIME TO GET</p>
         <h1 className="uppercase font-semibold text-4xl sm:text-5xl md:text-6x1">
-          Swole<span className="text-blue-400 font-medium">normous</span>
+          Swole<span className="text-pink-400 font-medium">normous</span>
         </h1>
       </div>
       <p className="text-sm md:text-base font-light">
         I hereby acknowledgement that I may became{" "}
-        <span className="text-blue-400 font-medium">unbelievably</span>
+        <span className="text-pink-400 font-medium">unbelievably</span>
         swolenormous and accept all risks of becoming the local{" "}
-        <span className="text-blue-400 font-medium">mass montrosity</span>,
+        <span className="text-pink-400 font-medium">mass montrosity</span>,
         afflicted with severe body dismorphia, unable to fit through doors.
       </p>
       <Button
